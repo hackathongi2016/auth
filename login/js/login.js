@@ -14,8 +14,9 @@ $(document).ready(function(){
         url: "checklogin.php",
         data: "myusername="+username+"&mypassword="+password,
         success: function(html){
-          if(html=='true') {
-            window.location="http://search.trabel.me";
+          if(html != null) {
+            //console.log("redirect:" + "http://search.trabel.me/travels?user_id=" + html)
+            window.location="http://search.trabel.me/travels?user_id=" + html;
           }
           else {
             $("#message").html(html);
