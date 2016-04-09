@@ -22,7 +22,7 @@
 
       <form class="form-signin" name="form1" method="post" action="checklogin.php">
         <div width="100%" class="center">
-          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/Trabel.png" width="200px" />
+          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/dissenys/LOGOTIP.png" width="200px" />
           <h2 class="form-signin-heading center">Accedir</h2>
         </div>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Usuari" autofocus>
