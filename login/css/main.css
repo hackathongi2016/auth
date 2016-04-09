@@ -52,10 +52,21 @@ body {
 
 .background-primary-color
 {
-  background-color: #6f83ff
+  background-color: #6f83ff !important;
 }
 
 .background-secondary-color
 {
-  background-color: #717dc5;
+  background-color: #717dc5 !important;
+}
+
+.center
+{
+  text-align: center;
+}
+
+h2
+{
+  font-size: 20px;
+  margin-bottom: 10px !important;
 }

@@ -15,35 +15,29 @@
     <title>Signup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
     <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <link href="css/bootstrap.css" rel="stylesheet" media="screen"> 
+    <script type="text/javascript" src="./bower_components/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="./bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="./bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+
     <link href="css/main.css" rel="stylesheet" media="screen">
 
-    <script type="text/javascript" src="./bower_components/moment/min/moment.min.js"></script>
-    <!-- <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
-    <script type="text/javascript" src="./bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-    <!-- <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="./bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
   </head>
 
   <body>
     <div class="container">
 
       <form class="form-signup" id="usersignup" name="usersignup" method="post" action="createuser.php">
-        <h2 class="form-signup-heading"><center>Registre</center></h2>
-        <input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>
+        <div width="100%" class="center">
+          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/Trabel.png" width="200px" />
+          <h2 class="form-signin-heading center">Registrar-me</h2>
+        </div><input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>
         <input name="surname" id="surname" type="text" class="form-control" placeholder="Cognom" autofocus>
         <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Usuari" autofocus>
         <input name="email" id="email" type="text" class="form-control" placeholder="E-mail">
