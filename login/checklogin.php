@@ -16,15 +16,8 @@ $mypassword = stripslashes($mypassword);
 $login = new loginForm;
 $response = $login->checkLogin($tbl_name, $myusername, $mypassword);
 
-	if ($response == 'true'){
-		echo "true";
-		$_SESSION['username'] = 'myusername';
-		$_SESSION['password'] = 'mypassword';
-	}
-	else {
-
+	if ($response != null) {
 		echo $response;
-
 	}
 
 ob_end_flush();
