@@ -51,6 +51,8 @@
         <input name="password2" id="password2" type="password" class="form-control" placeholder="Repeat Password">
         <input name="birthday" id="birthday" type="text" class="form-control" placeholder="Birthday">
         <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <br\>
+        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='login.php';return false;">Log in</button>
 
         <div id="message"></div>
       </form>
