@@ -166,8 +166,8 @@ class mailSender {
 
 class newUserForm extends dbConn {
 
-	public function createUser($usr, $email, $pw) {
-
+	public function createUser($usr, $email, $pw, $name, $surname, $birthday, $gender, $avatar)
+	{
 		include 'config.php';
 
 		try {
@@ -175,10 +175,6 @@ class newUserForm extends dbConn {
 			$db = new dbConn;
 
 			$register_date = date("Y-m-d H:i:s");
-			$birthday = date("Y-m-d H:i:s");
-
-			$name = "name";
-			$surname = "surname";
 
 			// prepare sql and bind parameters
 /*
@@ -192,17 +188,18 @@ class newUserForm extends dbConn {
 */
 			$err = '';
 			// prepare sql and bind parameters
-			$stmt = $db->conn->prepare("INSERT INTO $tbl_name (usr_name, usr_surname, usr_nickname, usr_mail, usr_password, usr_birthday, usr_register_date, usr_avatar_url)
+			$stmt = $db->conn->prepare("INSERT INTO $tbl_name (usr_name, usr_surname, usr_nickname, usr_mail, usr_password, usr_birthday, usr_gender, usr_register_date, usr_avatar_url)
 			VALUES (:name, :surname, :nickname, :mail, 
-				:password, :birthday, :register_date, :avatar_url)");
+				:password, :birthday, :gender, :register_date, :avatar_url)");
 			$stmt->bindParam(':name', $name);
 			$stmt->bindParam(':surname', $surname);
 			$stmt->bindParam(':nickname', $usr);
 			$stmt->bindParam(':mail', $email);
 			$stmt->bindParam(':password', $pw);
 			$stmt->bindParam(':birthday', $birthday);
+			$stmt->bindParam(':gender', $gender);
 			$stmt->bindParam(':register_date', $register_date);
-			$stmt->bindParam(':avatar_url', $pw);
+			$stmt->bindParam(':avatar_url', $avatar);
 			$stmt->execute();
 		}
 		catch (PDOException $e) {
