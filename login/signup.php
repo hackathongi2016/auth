@@ -42,7 +42,7 @@
     <div class="container">
 
       <form class="form-signup" id="usersignup" name="usersignup" method="post" action="createuser.php">
-        <h2 class="form-signup-heading">Register</h2>
+        <h2 class="form-signup-heading">Sign up</h2>
         <input name="name" id="name" type="text" class="form-control" placeholder="Name" autofocus>
         <input name="surname" id="surname" type="text" class="form-control" placeholder="Surname" autofocus>
         <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Username" autofocus>
