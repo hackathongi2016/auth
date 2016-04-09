@@ -115,6 +115,90 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "login/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/signup.php",
+			"settings":
+			{
+				"buffer_size": 4524,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/createuser.php",
+			"settings":
+			{
+				"buffer_size": 2458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/scripts/class.loginscript.php",
+			"settings":
+			{
+				"buffer_size": 7403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/js/signup.js",
+			"settings":
+			{
+				"buffer_size": 1558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"preg_match(\"@^http(s)?@\", $newLink)\"\n|+| \"$newLink\"\n|+| \"$this->checkIfExternal($newLink)\"\n|+| \"$crawler->pendingLinks\"\n|+| \"$url\"\n",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Unix",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/createuser.php\n	|+| 16\n	|+| 35\n=> /Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/scripts/class.loginscript.php\n	|+| 66\n	|+| 177\n=> /Applications/XAMPP/xamppfiles/htdocs/ittm/commands/CronController.php\n	|+| 28\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/commands/CrawlerController.php\n	|+| 42\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/controllers/CompetitorController.php\n	|+| 182\n	|+| 186\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/controllers/KeywordController.php\n	|+| 53\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/controllers/ProductMatchController.php\n	|+| 102\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/helpers/Crawler.php\n	|+| 129\n	|+| 132\n	|+| 138\n	|+| 140\n	|+| 152\n=> /Applications/XAMPP/xamppfiles/htdocs/rankinstant/helpers/SchemaProcessorHelper.php\n	|+| 67\n",
+			"settings":
+			{
+				"buffer_size": 897,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -169,10 +253,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth"
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/css",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/js",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/scripts"
 	],
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/js/login.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/scripts/class.loginscript.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/contabilus/contabilus/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/checklogin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/verifyuser.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/login/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/README.md",
 		"/Applications/XAMPP/xamppfiles/htdocs/rankinstant/controllers/ProductMatchController.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/hackathongi/faq/faq.html",
 		"/Applications/XAMPP/xamppfiles/htdocs/rankinstant/models/base/CrawledUrl.php",
@@ -287,30 +388,18 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/app/src/js/directives/calendar/additio-diary-title.js",
 		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/app/src/js/filters/filter-avg-of-value.js",
 		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/app/src/js/models/ColorRange.js",
-		"/Users/jordics/Desktop/textosNous.csv",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-commands",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Packages/User/reg_replace.sublime-settings",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Packages/RegReplace/reg_replace.sublime-settings",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Installed Packages/RegReplace.sublime-package",
-		"/Users/jordics/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/api/modules/v1/controllers/ReportController.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/api/modules/v1/models/ReportWidget.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/common/models/ReportWidget.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/common/models/Report.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/sync/modules/v1/controllers/StudentPictureController.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/app/src/index.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/rest/common/exceptions/AdditioHttpException.php"
+		"/Users/jordics/Desktop/textosNous.csv"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 106.0,
 		"where_history":
 		[
+			"/Applications/XAMPP/xamppfiles/htdocs/hackathongi_auth/",
 			"/Applications/XAMPP/xamppfiles/htdocs/rankinstant/",
 			"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/app/src",
 			"/Applications/XAMPP/xamppfiles/htdocs/additio-cloud/",
@@ -330,6 +419,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"control",
+			"newid",
+			"theme",
+			"border",
+			"h2",
+			"color",
+			"input",
+			"datetimepicker(",
+			"datetimepicker",
+			"../css",
+			"bootstrap.css",
+			"bootstrap",
+			"index.php",
+			"index",
+			"main_login",
+			"password_ha",
+			"newpw",
+			"createUser",
+			"password_verify",
 			"http_err",
 			"excep",
 			"->get",
@@ -438,26 +546,7 @@
 			"\" : \"",
 			",",
 			"\"",
-			"fconfigureValuexEmptyResult",
-			"endance.notVisibleB",
-			"i tuoi dati ",
-			"function",
-			"});",
-			"}",
-			"});",
-			"});\n",
-			"function \\(([^)]+)\\)\\s+\\{(.*?)(\\}\\)\\;)/sU",
-			"function",
-			"controller",
-			"function",
-			"Exception",
-			"exception(",
-			"createaction",
-			"Exception",
-			"exception",
-			"moment",
-			"send",
-			"mail"
+			"fconfigureValuexEmptyResult"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,8 +652,281 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "login/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login/signup.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3014,
+								3014
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 587.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "login/createuser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "login/scripts/class.loginscript.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5721,
+								5721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2467.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "login/js/signup.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								897,
+								897
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -583,18 +945,32 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.7,
 			1.0
 		]
 	},
@@ -605,7 +981,7 @@
 	},
 	"output.xdebug":
 	{
-		"height": 70.0
+		"height": 31.0
 	},
 	"pinned_build_system": "",
 	"project": "hackathongi_auth.sublime-project",
@@ -644,6 +1020,65 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"41":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"42":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"43":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"45":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"48":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"54":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,

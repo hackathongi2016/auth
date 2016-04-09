@@ -36,7 +36,7 @@
 
       <form class="form-signup" id="usersignup" name="usersignup" method="post" action="createuser.php">
         <div width="100%" class="center">
-          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/dissenys/Trabel.png" width="200px" />
+          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/dissenys/Travel_Blanc.png" width="200px" />
           <h2 class="form-signin-heading center">Registrar-me</h2>
         </div>
         <input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>

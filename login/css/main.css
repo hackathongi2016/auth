@@ -2,6 +2,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
+  background-image: url('https://raw.githubusercontent.com/hackathongi2016/docs/master/dissenys/Fons_Planeta.jpg');
 }
 
 .form-signin, .form-signup {
@@ -70,4 +71,5 @@ h2
 {
   font-size: 20px;
   margin-bottom: 10px !important;
+  color: lightgray;
 }
