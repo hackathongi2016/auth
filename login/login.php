@@ -25,7 +25,8 @@
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
         <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-
+        <br>
+        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='signup.php';return false;">Sign up</button>
         <div id="message"></div>
       </form>
 
