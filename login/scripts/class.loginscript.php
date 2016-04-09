@@ -75,7 +75,7 @@ class loginForm extends dbConn {
 			$success = "<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>Wrong Username or Password</div>";
 		}
 
-		return null;
+		return $success;
 
 	}
 };

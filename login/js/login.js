@@ -14,7 +14,7 @@ $(document).ready(function(){
         url: "checklogin.php",
         data: "myusername="+username+"&mypassword="+password,
         success: function(html){
-          if(html != null) {
+          if (Number(parseFloat(html)) == html) {
             //console.log("redirect:" + "http://search.trabel.me/travels?user_id=" + html)
             window.location="http://search.trabel.me/travels?user_id=" + html;
           }
