@@ -1,18 +1,19 @@
 <?php
+/*
   session_start();
 
   if(isset($_SESSION['username'])){
 	session_start();
 	session_destroy();
   }
-
+*/
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Signup</title>
+    <title>Welcome to Trabel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
@@ -37,13 +38,21 @@
         <div width="100%" class="center">
           <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/dissenys/Trabel.png" width="200px" />
           <h2 class="form-signin-heading center">Registrar-me</h2>
-        </div><input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>
+        </div>
+        <input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>
         <input name="surname" id="surname" type="text" class="form-control" placeholder="Cognom" autofocus>
         <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Usuari" autofocus>
         <input name="email" id="email" type="text" class="form-control" placeholder="E-mail">
         <input name="password1" id="password1" type="password" class="form-control" placeholder="Contrassenya">
         <input name="password2" id="password2" type="password" class="form-control" placeholder="Repetir contrassenya">
         <input name="birthday" id="birthday" type="text" class="form-control" placeholder="Data de naixement">
+
+        <select name="gender" id="gender" class="form-control" style="height:42px; color: darkgray;">
+          <option value="small">Home</option>
+          <option value="medium">Dona</option>
+        </select>
+
+        <input name="avatar" id="avatar" type="text" class="form-control" placeholder="Avata URL">
         <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block background-primary-color" type="submit">Registrar-me</button>
         <br\>
         <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='login.php';return false;">Ja tinc usuari</button>
@@ -70,7 +79,7 @@
   
     <script type="text/javascript">
             $(function () {
-                $('#birthday').datepicker();
+                $('#birthday').datepicker({ dateFormat: 'yy-mm-dd' });
             });
         </script>
 <script>

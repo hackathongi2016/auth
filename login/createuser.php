@@ -3,18 +3,25 @@ require 'scripts/class.loginscript.php';
 include_once 'config.php';
 
 	//Pull username, generate new ID and hash password
-	$newid = uniqid (rand(), false);
 	$newuser = $_POST['newuser'];
 	$newpw = password_hash($_POST['password1'], PASSWORD_DEFAULT);
 	$pw1 = $_POST['password1'];
 	$pw2 = $_POST['password2'];
+
+	$name = $_POST['name'];
+	$surname = $_POST['surname'];
+	$email = $_POST['email'];
+	$birthday = $_POST['birthday'];
+	//$formated_birthday = date('m/d/y',$birthday);
+	$gender = $_POST['gender'];
+	$avatar = $_POST['avatar'];
 
 	//Enables moderator verification (overrides user self-verification emails)
 	if (isset($admin_email)){
 		$newemail = $admin_email;
 	}
 	else{
-		$newemail = $_POST['email'];
+		$newemail = $email;
 	}
 //Validation rules
 if ($pw1 != $pw2){
@@ -32,15 +39,15 @@ else{
 
 		//Tries inserting into database and add response to variable
 		$a = new newUserForm;
-		$response = $a->createUser($newuser, $newemail, $newpw);
+		$response = $a->createUser($newuser, $newemail, $newpw, $name, $surname, $birthday, $gender, $avatar);
 		//Success
 		if($response == 'true'){
 
 			echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'. $signupthanks .'</div><div id="returnVal" style="display:none;">true</div>';
 
 			//Send verification email
-			$m = new mailSender;
-			$m->sendMail($newemail, $newuser, $newid, 'Verify');
+			//$m = new mailSender;
+			//$m->sendMail($newemail, $newuser, $newid, 'Verify');
 		}
 		//Failure
 		else{ mySqlErrors($response); }
