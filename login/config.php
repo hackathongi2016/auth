@@ -3,11 +3,22 @@
 include 'globalcon.php';
 
 //DATABASE CONNECTION VARIABLES
-$host = "localhost"; // Host name
-$username = "root"; // Mysql username
-$password = "hackaton"; // Mysql password
-$db_name = "viatgemjunts"; // Database name
-$tbl_name = "User"; // Table name
+$host = $_SERVER['HTTP_HOST'];
+if ($host == 'localhost') {
+	$host = "localhost"; // Host name
+	$username = "root"; // Mysql username
+	$password = ""; // Mysql password
+	$db_name = "viatgemjunts"; // Database name
+	$tbl_name = "User"; // Table name
+}
+else
+{
+	$host = "localhost"; // Host name
+	$username = "root"; // Mysql username
+	$password = "hackaton"; // Mysql password
+	$db_name = "viatgemjunts"; // Database name
+	$tbl_name = "User"; // Table name
+}
 
 //Set this for global site use
 $site_name = 'Viatgem Junts';
