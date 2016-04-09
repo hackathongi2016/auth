@@ -5,7 +5,7 @@ include 'globalcon.php';
 //DATABASE CONNECTION VARIABLES
 $host = "localhost"; // Host name
 $username = "root"; // Mysql username
-$password = ""; // Mysql password
+$password = "hackaton"; // Mysql password
 $db_name = "viatgemjunts"; // Database name
 $tbl_name = "User"; // Table name
 
