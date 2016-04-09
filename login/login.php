@@ -21,7 +21,10 @@
     <div class="container">
 
       <form class="form-signin" name="form1" method="post" action="checklogin.php">
-        <h2 class="form-signin-heading"><center>Accedir</center></h2>
+        <div width="100%" class="center">
+          <img src="https://raw.githubusercontent.com/hackathongi2016/docs/master/Trabel.png" width="200px" />
+          <h2 class="form-signin-heading center">Accedir</h2>
+        </div>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Usuari" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Contrassenya">
         <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block background-primary-color" type="submit">Accedir</button>
