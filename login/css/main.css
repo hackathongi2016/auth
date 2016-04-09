@@ -11,7 +11,7 @@ body {
 }
 .form-signin .form-signin-heading, .form-signup .form-signup-heading,
 .form-signin .checkbox, .form-signup .checkbox {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .form-signin .checkbox, .form-signup .checkbox{
   font-weight: normal;
@@ -48,4 +48,14 @@ body {
 }
 .form-signin .btn, .form-signup .btn  {
   margin-bottom: 10px;
+}
+
+.background-primary-color
+{
+  background-color: #6f83ff
+}
+
+.background-secondary-color
+{
+  background-color: #717dc5;
 }
