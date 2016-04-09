@@ -15,7 +15,7 @@ $(document).ready(function(){
         data: "myusername="+username+"&mypassword="+password,
         success: function(html){
           if(html=='true') {
-            window.location="../index.php";
+            window.location="http://search.trabel.me";
           }
           else {
             $("#message").html(html);
