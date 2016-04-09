@@ -25,13 +25,13 @@ include_once 'config.php';
 	}
 //Validation rules
 if ($pw1 != $pw2){
-	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Password fields must match</div><div id="returnVal" style="display:none;">false</div>';
+	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Els camps password han de coincidir</div><div id="returnVal" style="display:none;">false</div>';
 }
 elseif (strlen($pw1) < 4){
-	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Password must be at least 4 characters</div><div id="returnVal" style="display:none;">false</div>';
+	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>El password ha de tenir com a mínim 4 caràcters</div><div id="returnVal" style="display:none;">false</div>';
 }
 elseif(!filter_var($newemail, FILTER_VALIDATE_EMAIL) == true ){
-	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Must provide a valid email address</div><div id="returnVal" style="display:none;">false</div>';
+	echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Has de posar una direcció de correu vàlida</div><div id="returnVal" style="display:none;">false</div>';
 }
 //Validation passed
 else{
