@@ -42,17 +42,17 @@
     <div class="container">
 
       <form class="form-signup" id="usersignup" name="usersignup" method="post" action="createuser.php">
-        <h2 class="form-signup-heading">Sign up</h2>
-        <input name="name" id="name" type="text" class="form-control" placeholder="Name" autofocus>
-        <input name="surname" id="surname" type="text" class="form-control" placeholder="Surname" autofocus>
-        <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Username" autofocus>
-        <input name="email" id="email" type="text" class="form-control" placeholder="Email">
-        <input name="password1" id="password1" type="password" class="form-control" placeholder="Password">
-        <input name="password2" id="password2" type="password" class="form-control" placeholder="Repeat Password">
-        <input name="birthday" id="birthday" type="text" class="form-control" placeholder="Birthday">
-        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <h2 class="form-signup-heading"><center>Registre</center></h2>
+        <input name="name" id="name" type="text" class="form-control" placeholder="Nom" autofocus>
+        <input name="surname" id="surname" type="text" class="form-control" placeholder="Cognom" autofocus>
+        <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Usuari" autofocus>
+        <input name="email" id="email" type="text" class="form-control" placeholder="E-mail">
+        <input name="password1" id="password1" type="password" class="form-control" placeholder="Contrassenya">
+        <input name="password2" id="password2" type="password" class="form-control" placeholder="Repetir contrassenya">
+        <input name="birthday" id="birthday" type="text" class="form-control" placeholder="Data de naixement">
+        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block background-primary-color" type="submit">Registrar-me</button>
         <br\>
-        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='login.php';return false;">Log in</button>
+        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='login.php';return false;">Ja tinc usuari</button>
 
         <div id="message"></div>
       </form>

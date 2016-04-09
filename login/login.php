@@ -21,12 +21,12 @@
     <div class="container">
 
       <form class="form-signin" name="form1" method="post" action="checklogin.php">
-        <h2 class="form-signin-heading">Sign in</h2>
-        <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
-        <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
-        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <h2 class="form-signin-heading"><center>Accedir</center></h2>
+        <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Usuari" autofocus>
+        <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Contrassenya">
+        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block background-primary-color" type="submit">Accedir</button>
         <br>
-        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='signup.php';return false;">Sign up</button>
+        <button name="login" id="login" class="btn btn-lg btn-secondary btn-block" onclick="window.location='signup.php';return false;">Registrar-me</button>
         <div id="message"></div>
       </form>
 
