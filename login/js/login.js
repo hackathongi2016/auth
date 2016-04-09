@@ -16,7 +16,7 @@ $(document).ready(function(){
         success: function(html){
           if (Number(parseFloat(html)) == html) {
             //console.log("redirect:" + "http://search.trabel.me/travels?user_id=" + html)
-            window.location="http://search.trabel.me/travels?user_id=" + html;
+            window.location="http://search.trabel.me/#/travels?user_id=" + html;
           }
           else {
             $("#message").html(html);
